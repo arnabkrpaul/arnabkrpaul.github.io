@@ -2,7 +2,7 @@
 
 // Configure
 $subjectPrefix = '[Contact via website]';
-$emailTo       = 'akpaul@vt.edu';
+$emailTo       = '<YOUR EMAIL HERE>';
 //$emailTo       = 'owwwlab@gmail.com';
 
 
