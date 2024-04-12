@@ -21,24 +21,31 @@
             <div class="navbar">
                <div class="navbar-inner">
                   <div class="container">
-                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="people.html">People</a></li>
-                        <li class="active"><a href="#">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <!---<li><a href="teaching.html">Teaching</a></li>--->
-                        <li><a href="joinus.html">Join Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
+                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="brand d-none-md-full" href="#" style="margin-left: 3px;">Navigation</a>
+                      <div class="nav-collapse collapse" style="height: 0; overflow: hidden;">
+                        <ul class="nav">
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="people.html">People</a></li>
+                           <li class="active"><a href="#">Research</a></li>
+                           <li><a href="publications.html">Publications</a></li>
+                           <li><a href="gallery.html">Gallery</a></li>
+                           <li><a href="news.html">News</a></li>
+                           <li><a href="joinus.html">Join Us</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
          <div class="row-fluid">
-            <div class="span3 bs-docs-sidebar" id="navparent">
-               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+            <div class="span3" id="navparent">
+               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="260" style="width: fit-content; max-height: 30em; overflow: scroll;"> 
                   <!---<li><a href="#statemet"> Lorem Ipsum </a></li>--->
                   <li><a href="#hpc"> High Performance Computing (HPC) </a></li>
                   <li><a class="subhead" href="#pfs"> Parallel File System </a></li>                  
@@ -209,7 +216,7 @@
                            </p>
                         </section>
                         <hr>
-                        <section id="datacache">
+                        <section id="mlops">
                            <h4>Data Caching</h4>
                            <br/>
                            <img src="images/hvac.jpg" class="float-right" style="height: 7cm;" alt="Quam Id Leo"/>
@@ -398,7 +405,7 @@
                   <a href="index.html"><img src = "images/FullLogo.png" alt="research-lab-logo"/></a>
                </div>
                <div class="span5">
-                  <h3>Lab Address</h3>
+                  <h3 class="">Lab Address</h3>
                   <h5 style="color:white">D-241, Department of CSIS<br>
                      BITS Pilani, K K Birla Goa Campus<br>
                      Zuarinagar, Goa<br>
